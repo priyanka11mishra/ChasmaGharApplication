@@ -84,12 +84,14 @@
     <!-- Registration Form Ends -->
 
     <!-- Footer Start -->
-    <LinearLayout android:id="@+id/footer"
-                  android:orientation="vertical"
-                  android:layout_width="fill_parent"
-                  android:layout_height="90dip"
-                  android:background="@layout/footer"
-                  android:layout_alignParentBottom="true"/>
+    <ImageView
+            android:id="@+id/footer"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:src="@drawable/background"
+            android:tileMode="repeat"
+            android:layout_alignParentBottom="true"/>
+
     <!-- Footer Ends -->
 
 </RelativeLayout>
